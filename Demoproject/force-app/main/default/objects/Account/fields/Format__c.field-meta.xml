@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Format__c</fullName>
+    <externalId>false</externalId>
+    <label>Format</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>jpeg</fullName>
+                <default>false</default>
+                <label>jpeg</label>
+            </value>
+            <value>
+                <fullName>jpg</fullName>
+                <default>false</default>
+                <label>jpg</label>
+            </value>
+            <value>
+                <fullName>pdf</fullName>
+                <default>false</default>
+                <label>pdf</label>
+            </value>
+            <value>
+                <fullName>png</fullName>
+                <default>false</default>
+                <label>png</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
