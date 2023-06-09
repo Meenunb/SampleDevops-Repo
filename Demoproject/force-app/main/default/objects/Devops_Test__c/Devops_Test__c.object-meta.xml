@@ -153,13 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Devops Test</label>
+    <label>UpSkill Training</label>
     <nameField>
-        <label>Devops Test Name</label>
+        <label>Trainee Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Devops Tests</pluralLabel>
+    <pluralLabel>UpSkill Trainings</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
