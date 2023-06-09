@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( $Profile.Id ==&#39;00e5i000001r5BoAAI&#39;, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>List_Formula</label>
+    <type>Checkbox</type>
+</CustomField>
