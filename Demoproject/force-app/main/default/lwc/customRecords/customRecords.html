@@ -1,0 +1,27 @@
+<template>
+    <lightning-card>
+        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+            <lightning-record-edit-form object-api-name={objectApiName}  onsuccess={successToastHandler} onsubmit={submitHandler} lwc:ref="depart">   
+                <lightning-input-field field-name="Budget__c"> </lightning-input-field>    
+                <lightning-input-field field-name="Department_Branch__c"> </lightning-input-field>   
+                <lightning-input-field field-name="Department_Email__c"> </lightning-input-field>
+                <lightning-input-field field-name="Department_Phone_Number__c"> </lightning-input-field> 
+            <div class="slds-var-m-top_medium align-centre slds-align_absolute-center"> 
+                <lightning-button variant="brand-outline" type="submit" label="Save" class="slds-m-left_x-small"></lightning-button>
+                    </div>   
+            </lightning-record-edit-form>                
+        </div></lightning-card>
+
+    <template if:true={wiredRecordList}>
+        <lightning-card>
+            <div class="slds-m-around_medium">
+                <lightning-datatable
+                    key-field="Id"
+                    data={wiredRecordList}
+                    columns={columns}
+                    hide-checkbox-column="true">
+                </lightning-datatable>
+            </div>
+        </lightning-card>
+    </template>
+</template>
