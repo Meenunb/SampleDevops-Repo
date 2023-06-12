@@ -1,4 +1,4 @@
-public class DepartmentController {
+public with sharing class DepartmentController {
     @AuraEnabled(cacheable=true)
     public static List<Department__c> getDepartments() {
         return [SELECT Id, Name, Budget__c, Department_Branch__c, Department_Email__c, Department_Phone_Number__c FROM Department__c];
